@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/KundanRPatil/textUtils-krp/precache-manifest.ac370e71d3592ad2ef98302564f87608.js"
+  "/KundanRPatil/textUtils-krp/precache-manifest.b792086b528923ba867acd901614dc6e.js"
 );
 
 self.addEventListener('message', (event) => {
