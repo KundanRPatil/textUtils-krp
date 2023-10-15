@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import TextUtils from "./components/TextUtils";
 import Alert from "./components/Alert";
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { HashRouter, Routes, Route} from "react-router-dom";
 
 function App() {
 
@@ -37,7 +37,7 @@ function App() {
   return (
     <>
       {/* props */}
-      <BrowserRouter basename="/textUtils-krp">
+      <HashRouter basename="/textUtils-krp">
       <Navbar title="KRP" link="About" mode={mode} toggleMode={toggleMode} />
       <Alert alert={alert} />
         <Routes>
@@ -51,7 +51,7 @@ function App() {
 
 
       <Footer mode={mode} />
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
